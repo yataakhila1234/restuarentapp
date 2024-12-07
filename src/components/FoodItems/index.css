@@ -1,0 +1,123 @@
+.fooditems-container {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.dish-category-container {
+  width: 30px !important;
+  height: 30px !important;
+  padding: 3px;
+  background-color: #f7f7f7;
+}
+
+.dish-category-item {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin: 0px;
+}
+.type-1-container {
+  border: 1px solid #92282a;
+}
+.type-2-container {
+  border: 1px solid #00923f;
+}
+.type-1-item {
+  background-color: #92282a;
+}
+.type-2-item {
+  background-color: #00923f;
+}
+.dish-details {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  margin: 0px;
+  margin-left: 10px;
+  min-width: 50vw;
+  max-width: 50vw;
+}
+.dish-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.dish-price {
+  font-size: 16px;
+  font-weight: 600;
+  color: #4f4f4f;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.dish-description {
+  font-size: 16px;
+  color: #a7a5a5;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.dish-calories {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffa500;
+  align-self: center;
+  min-width: 10vw;
+  margin: 0px;
+  margin-left: 10px;
+}
+.dish-image {
+  min-width: 20vw;
+  height: 10vh;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0px;
+  margin-left: 10px;
+}
+.dish-quantity-contianer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #338218;
+  padding: 10px;
+  max-width: 150px;
+  max-height: 35px;
+  border-radius: 25px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.dish-quantity-button {
+  background: transparent;
+  border: transparent;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.dish-addons {
+  border: transparent;
+  background: transparent;
+  width: 50%;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #653ef3;
+}
+.dish-not-available {
+  font-size: 16px;
+  color: #e8534d;
+}
+
+@media (min-width: 768px) {
+  .dish-image {
+    width: 20vw;
+    height: 30vh;
+  }
+  .dish-details {
+    min-width: 60vw;
+    max-width: 60vw;
+  }
+}
